@@ -1,0 +1,1 @@
+pow_num = int(input('Input power of number : '))
