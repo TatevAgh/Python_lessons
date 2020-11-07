@@ -32,9 +32,50 @@
 
 
 # *Define a garage collection that stores 3 cars (models), it’s known that double of same models came to garage, print garage models
-
+# models = ['bmw', 'audi', 'bmw']
+#
+# same_models = []
+# for model in models:
+#     for same in models:
+#         if model == same:
+#             same_models.append(same)
+#
+# print(same_models)
+"""sa chhaskaca inchpes anem"""
 
 # *Define a collection of programming languages (names), add new language name from console if it’s not C#
+# languages = ['Python', 'Javascript', 'Java', 'C#', 'C++']
+# new_language = str(input('Add new language: '))
+#
+# if new_language != 'C#':
+#     languages.append(new_language)
+#     print(languages)
+
 # *Define an empty collection, input 3 numbers and add them to collection, calculate factorial for the last one
+numbers = []
+first_num = int(input('Input First Value: '))
+numbers.append(first_num)
+sec_num = int(input('Input Second Value: '))
+numbers.append(sec_num)
+third_num = int(input('Input Third Value: '))
+numbers.append(third_num)
+last_value = numbers[-1]
+print(last_value)
+factorial = 1
+# if last_value < 0:
+#     print('Sorry, factorial does not exist for negative numbers')
+# elif last_value == 0:
+#     factorial = 1
+#     print('Factorial of 0 is ' + factorial)
+# else:
+print(range(1, last_value + 1))
+
+    # for i in range(1, last_value + 1):
+    #     factorial = factorial * i
+    # print("The factorial of", last_value, "is", factorial)
+    #
+
+
+
 # *Define a collection of words, input 2 new words and add them to list, find some inputed word in list and remove a word with some inputed index
 # *Define a game board (2x2 matrix) with 2 bomb values and 2 gold values, provide user 3 attempts to find all gold values
