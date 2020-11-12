@@ -23,8 +23,9 @@
 #     print('one is negative')
 
 # *Ask user to input number from console and check if it contains any symbols
-# value1 = input('Please input number: ')
-# print('your input is: ', type(value1))
+value1 = int(input('Please input number: '))
+value2 = input('Please input number: ')
+print('your input is: ', type(value1))
 
 
 # *Read an integer from console and if it is positive calculate it’s square root
