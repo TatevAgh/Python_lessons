@@ -1,0 +1,1 @@
+# *Create a regular expressions to check if string meets some requirements
