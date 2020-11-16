@@ -1,11 +1,13 @@
 # *Create a collection of students with their scores and input them from console,
 # remove students with score less than 40 and print final collection
+#
+students = {}
+limit = 0
+while limit < 2:
+    students[input('Enter Name of Student: ')] = int(input('Add score: '))
+    limit += 1
 
-students = {'Sona': 50, 'Vahan': 45}
-print(len(students))
-print(students.values())
-# while len(students) < 4:
-#     add_student = input('Enter Name of Student: ')
-#     students[add_student] = int(input('Add score: '))
-for student in students:
-    print(student)
+print(students)
+
+students = {key: value for key, value in students.items() if value > 40}
+print(students)
