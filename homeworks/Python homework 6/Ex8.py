@@ -1,0 +1,1 @@
+# *Input collection of numbers, find last number which square root is less than 26, print it

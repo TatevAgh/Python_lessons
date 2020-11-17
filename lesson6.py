@@ -10,13 +10,13 @@ months = ('January', 'February', 'March', 'April', 'May', 'June', 'July', 'Augus
 # print(dir(tuple))
 # print(help(tuple.index))
 
-#
-# lesson_1_students = {'Sevak', 'Hrayr', 'Tigran', 'Tatevik'}
-# lesson_2_students = {'Sevak', 'Arina', 'Tatevik'}
-#
-# print('Present in lesson 1 and 2: ', lesson_1_students&lesson_2_students)
-# print('Present in lesson 1 who are apsent in 2: ', lesson_1_students-lesson_2_students)
-# print('Present in lesson : ', lesson_1_students|lesson_2_students)
+
+lesson_1_students = {'Sevak', 'Hrayr', 'Tigran', 'Tatevik'}
+lesson_2_students = {'Sevak', 'Arina', 'Tatevik'}
+
+print('Present in lesson 1 and 2: ', lesson_1_students&lesson_2_students)
+print('Present in lesson 1 who are apsent in 2: ', lesson_1_students-lesson_2_students)
+print('Present in lesson : ', lesson_1_students|lesson_2_students)
 
 # numbers = {1, 12, 4, 55}
 # numbers = [1, 12, 4, 55]
