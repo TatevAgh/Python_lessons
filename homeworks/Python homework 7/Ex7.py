@@ -1,0 +1,1 @@
+# *Create several functions store them inside variables for handling collection of movie names using lambdas
