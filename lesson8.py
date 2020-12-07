@@ -37,4 +37,13 @@
 #         return False
 
 numbers = [2, 5, 11, 8]
-                
+
+employees = [{'name': 'Aaron', 'salary': 500}, {'name': 'Mery', 'salary': 600}]
+print(list(map(lambda x : x['name'], employees)))
+map(lambda x : x['salary']*2, employees) # [1000, 1200]
+map(lambda x : x['salary'] < 550, employees) # Output: [True, False]
+
+list_a = [1, 2, 3]
+list_b = [10, 20, 30]
+ggg = list(map(lambda x, y: x + y, list_a, list_b))
+print(ggg)
