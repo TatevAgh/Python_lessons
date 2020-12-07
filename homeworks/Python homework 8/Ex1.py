@@ -1,0 +1,1 @@
+# *Define some collection of names and get the collection of their first 3 characters using map(), print the result

@@ -36,14 +36,36 @@
 #     else:
 #         return False
 
-numbers = [2, 5, 11, 8]
+# numbers = [2, 5, 11, 8]
+#
+# employees = [{'name': 'Aaron', 'salary': 500}, {'name': 'Mery', 'salary': 600}]
+# print(list(map(lambda x : x['name'], employees)))
+# map(lambda x : x['salary']*2, employees) # [1000, 1200]
+# map(lambda x : x['salary'] < 550, employees) # Output: [True, False]
+#
+# list_a = [1, 2, 3]
+# list_b = [10, 20, 30]
+# ggg = list(map(lambda x, y: x + y, list_a, list_b))
+# print(ggg)
 
-employees = [{'name': 'Aaron', 'salary': 500}, {'name': 'Mery', 'salary': 600}]
-print(list(map(lambda x : x['name'], employees)))
-map(lambda x : x['salary']*2, employees) # [1000, 1200]
-map(lambda x : x['salary'] < 550, employees) # Output: [True, False]
 
-list_a = [1, 2, 3]
-list_b = [10, 20, 30]
-ggg = list(map(lambda x, y: x + y, list_a, list_b))
-print(ggg)
+# words_1 = ['heey', 'yesss', 'ahhhh']
+# words_2 = ['youuu', 'nooo', 'ohhh']
+#
+# words =  list(map(lambda first, second: first + ' ' + second, words_1, words_2))
+# print(words)
+#
+# numbers = [ 5, 8, 7, 66]
+# even = list(filter(lambda i: i % 2 == 0, numbers))
+# print(even)
+
+# Problem: Create a collection of several employees with some information about them,
+# get the employees with information if their position title starts with some symbol, print result
+
+# employees = [{'name': 'Gexam', 'position': 'manager', 'stars': 5}, {'name': 'Armen', 'position': 'smm', 'stars': 2}]
+# employees_w_s = list(filter(lambda x: x['name'][0] == 'G', employees))
+# print(employees_w_s)
+
+# import functools
+# numbers = [ 5, 8, 7, 66]
+# print(functools.reduce(lambda x, y: x+y, numbers))
