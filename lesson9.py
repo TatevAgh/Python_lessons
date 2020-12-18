@@ -73,3 +73,13 @@
 # first_house.check_is_open()
 # second_house.check_is_open()
 
+class Celsius:
+    def __init__(self, temperature = 0):
+        self.set_temperature(temperature)
+    def get_temperature(self):
+        return self._temperature
+    def set_temperature(self, value):
+        if value > -273:
+            self._temperature = value
+
+
