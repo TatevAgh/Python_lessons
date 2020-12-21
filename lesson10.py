@@ -58,15 +58,15 @@
 # my_birthday.day = 10
 # my_birthday.print_day()
 
-def divide():
-    try:
-        print(int(input('first num: ')) // int(input('sec num: ')))
-    except ZeroDivisionError:
-        print('problem with dividing with Zero')
-    except:
-        print('some other problem')
-    finally:
-        print('the action is finish')
+# def divide():
+#     try:
+#         print(int(input('first num: ')) // int(input('sec num: ')))
+#     except ZeroDivisionError:
+#         print('problem with dividing with Zero')
+#     except:
+#         print('some other problem')
+#     finally:
+#         print('the action is finish')
 
-divide()
-print('some text after divide')
+# divide()
+# print('some text after divide')
