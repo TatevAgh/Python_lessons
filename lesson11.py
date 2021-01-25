@@ -105,25 +105,29 @@
 # stexcel usanoxneri ebv irenc bajinneri collection,
 # hashvel qani hat unikal bajin ka, qani usanox ka, tpel vor bajnum e mutqagrac usanoxy, qani bajinneri anune sksum e s ov
 #avelacnel usanox ir bajnov
-
-students = {'Arina': 'tntes', 'Hrayr': 'sport', 'Sevak': 'it', 'Levon': 'tntes', 'Tatev': 'service'}
-unical_bajin = set(students.values())
-
-count_s = 0
-for name in students.keys():
-    if name.lower()[0] == 's':
-        count_s += 1
-# count_s = filter(lambda name: )
-
-# input_student = input('input students name: ')
-# for student in students:
-#     if input_student in student:
-#         print(student, 'studied in', students[student], 'department')
-
-#adding student
-students[input('input a name of student: ')] = input('input a department for student ')
-
-print('unikal bajinneri qanake: ', len(unical_bajin))
-print('usanoxneri qanake: ', len(students))
-print('S tarov sksvox usanoxneri qanake: ', count_s)
-print('all list of students: ', students)
+#
+# students = {'Arina': 'tntes', 'Hrayr': 'sport', 'Sevak': 'it', 'Levon': 'tntes', 'Tatev': 'service'}
+# unical_bajin = set(students.values())
+#
+# count_s = 0
+# for name in students.keys():
+#     if name.lower()[0] == 's':
+#         count_s += 1
+# # count_s = filter(lambda name: )
+#
+# # input_student = input('input students name: ')
+# # for student in students:
+# #     if input_student in student:
+# #         print(student, 'studied in', students[student], 'department')
+#
+# #adding student
+# students[input('input a name of student: ')] = input('input a department for student ')
+#
+# print('unikal bajinneri qanake: ', len(unical_bajin))
+# print('usanoxneri qanake: ', len(students))
+# print('S tarov sksvox usanoxneri qanake: ', count_s)
+# print('all list of students: ', students)
+#
+#
+# import multiprocessing
+# print('CPU count:', multiprocessing.cpu_count())
