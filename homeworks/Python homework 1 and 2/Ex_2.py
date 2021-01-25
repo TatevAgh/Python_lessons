@@ -13,3 +13,4 @@ print('The sub is: ' + str(summ))
 print('The multiplication is: ' + str(multiplication))
 print('The division is: ' + str(division))
 print('The sub is: ' + str(sub))
+

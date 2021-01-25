@@ -2,5 +2,6 @@
 
 import studentData
 
-print('Hi, my name is', studentData.name, '. I\'m', studentData.age, 'years old .', 'I\'m studying in', studentData.course, 'course .', 'My profession is an', studentData.profession)
+print('Hi, my name is', studentData.name, '. I\'m', studentData.age, 'years old .', 'I\'m studying in', studentData.course, 'course .',
+      'My profession is an', studentData.profession)
 

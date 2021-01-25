@@ -4,7 +4,6 @@
 # create several tickets and perform operations on them
 
 
-
 class Ticket:
     def __init__(self, from_location, to_location, transport_type, duration, arrival_time, passenger):
         self.from_location = from_location
