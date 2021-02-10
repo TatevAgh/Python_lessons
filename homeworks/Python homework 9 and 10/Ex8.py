@@ -8,6 +8,7 @@ class Smartphone:
         self.storage = storage
         self.color = color
         self.serial_number = serial_number
+
         self.__password = password
 
     def print_password(self, not_robot):
@@ -24,13 +25,14 @@ class Smartphone:
         used_storage = int(input('Write used storage: '))
         self.available_storage = self.storage - used_storage
         print('Your smartphone\'s availble storage is:', self.available_storage)
+        self.password = password
+
 
 
 class Iphone(Smartphone):
     def __init__(self, model, camera, storage, color, serial_number, password, software_version):
         Smartphone.__init__(self, model, camera, storage, color, serial_number, password)
         self.software_version = software_version
-
     def update_software(self):
         if self.software_version < 16:
             return self.software_version + 0.01
@@ -42,6 +44,7 @@ my_iphone11.print_password(input('If you are not a robot then write the correct 
 my_iphone11.available_storage()
 print('Your Iphone updated ios version is:  ', my_iphone11.update_software())
 s_20.stolen_phone()
+
 
 
 

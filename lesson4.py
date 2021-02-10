@@ -3,12 +3,12 @@
 #
 # print(arr[-1])
 
-arr = [5,8, 8]
+arr = [5, 8, 8]
 print(len(arr))
 print(arr[1])
 print(arr[-2])
 
-arr1 = [1,3,4,5,6,7,8,9]
+arr1 = [1, 3, 4, 5, 6, 7, 8, 9]
 print(arr1[-1:])
 
 print(arr1[1:-1])
