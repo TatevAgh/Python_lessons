@@ -1,4 +1,5 @@
-# *Define a garage collection that stores 3 cars (models), it’s known that double of same models came to garage, print garage models
+# *Define a garage collection that stores 3 cars (models),
+# it’s known that double of same models came to garage, print garage models
 
 models = ['bmw', 'audi', 'merc']
 new_car1 = input('Write new car model: ')
