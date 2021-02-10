@@ -39,9 +39,8 @@ def guessRandomly():
 
 def guessShennon(prev_1, prev_2, attempt, user_number):
     predicted_num = 0
-
     if attempt < 4:
-        protected_number = guessRandomly()
+        predicted_num = guessRandomly()
     else:
         if history[(prev_1, prev_2, 0)] > history[(prev_1, prev_2, 1)]:
             predicted_num = 0
