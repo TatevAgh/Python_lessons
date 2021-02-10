@@ -4,7 +4,7 @@
 #     print(param)
 # greet(word)
 
-
+#
 # numbers = [1, 3, 4, 5]
 # numbers2 = [1, 5, 6]
 # def print_even(arr):
@@ -51,29 +51,29 @@
 # add(3, 4, 5, 9)
 #
 
-#
-# def perform_action(number1, number2, act):
-#     value = act(number1, number2)
-#     print(value)
-#
-# def mult(num1, num2):
-#     return num1 * num2
-#
-# def add (val1, val2):
-#     return val1 + val2
-#
-# perform_action(1, 5, mult)
-# perform_action(7, 8, add)
-# add = lambda val1, val2: val1 + val2
-# perform_action(5, 4, lambda val1, val2: val1 + val2)
 
-import os
+def perform_action(number1, number2, act):
+    value = act(number1, number2)
+    print(value)
 
-f = open(r"C:\Users\Ser-Ar\Desktop\text.txt", "w")
+def mult(num1, num2):
+    return num1 * num2
+
+def add (val1, val2):
+    return val1 + val2
+
+perform_action(1, 5, mult)
+perform_action(7, 8, add)
+add = lambda val1, val2: val1 + val2
+perform_action(5, 4, lambda val1, val2: val1 + val2)
+
+# import os
+#
+# f = open(r"C:\Users\Ser-Ar\Desktop\text.txt", "w")
 # f = open("C:\\Users\\Ser-Ar\\Desktop\\text.txt", "w")
 # f = open("C:/Users/Ser-Ar/Desktop/text.txt", "w")
 # f.write("Hello")
-f.write("")
-f.close()
-
-print(dir(os))
+# f.write("")
+# f.close()
+#
+# print(dir(os))
