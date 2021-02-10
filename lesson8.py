@@ -4,30 +4,30 @@
 
 # arr = [1, 5, 2, 3]
 # def multiply_by_3(number):
-#     return number*3
+#     return number * 3
 #
-#
-# result = list(map(multiply_by_3, arr))2
+# result = list(map(multiply_by_3, arr))
+# print(list(map(lambda num: num * 2, arr)))
 # print(result)
-#
+
 
 # words_1 = ['first', 'sec', 'third']
 # words_2 = ['six', 'four', 'fifth']
 #
-#
 # def concat_words(word1, word2):
 #     return word1 + word2
 #
-#
 # result = list(map(concat_words, words_1, words_2))
 # print(result)
-#
+# print(list(map(lambda word1, word2: word1 + '___' + word2, words_1, words_2)))
+
 # numbers = [2, 5, 11, 8]
 # sec = list(filter(lambda x: 3 < x < 10, numbers))
+# print((list(filter(lambda num: num < 5, numbers))))
 # print(sec)
 #
-# # def is_between_3_10(x):
-# #     return 3 < x < 10
+# def is_between_3_10(x):
+#     return 3 < x < 10
 #
 #
 # def is_between_3_10(x):
@@ -62,10 +62,10 @@
 # Problem: Create a collection of several employees with some information about them,
 # get the employees with information if their position title starts with some symbol, print result
 
-# employees = [{'name': 'Gexam', 'position': 'manager', 'stars': 5}, {'name': 'Armen', 'position': 'smm', 'stars': 2}]
-# employees_w_s = list(filter(lambda x: x['name'][0] == 'G', employees))
-# print(employees_w_s)
+employees = [{'name': 'Gexam', 'position': 'manager', 'stars': 5}, {'name': 'Armen', 'position': 'smm', 'stars': 2}]
+employees_w_s = list(filter(lambda x: x['name'][0] == 'G', employees))
+print(employees_w_s)
 
-# import functools
-# numbers = [ 5, 8, 7, 66]
-# print(functools.reduce(lambda x, y: x+y, numbers))
+import functools
+numbers = [ 5, 8, 7, 66]
+print(functools.reduce(lambda x, y: x+y, numbers))
