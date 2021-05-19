@@ -46,4 +46,4 @@ from sklearn import metrics
 
 yPredicted = model.predict(Xtest)
 
-print(metrics.acceurancy_scor(ytest, yPredicted))
+print(metrics.accuracy_score(ytest, yPredicted))
