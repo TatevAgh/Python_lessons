@@ -2,7 +2,7 @@ import pandas
 data = pandas.read_csv('wine.csv')
 # print(data.head(3))
 # print(data.tail(3))
-print(data.columns)
+# print(data.columns)
 # print(data['Alcohol'])
 # print(data['Alcohol'].head(3))
 # print(data[['Wine', 'Alcohol']].tail(2))
